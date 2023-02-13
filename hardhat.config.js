@@ -14,6 +14,10 @@ module.exports = {
       chainId: 31337,
       blockConfirmations: 1,
     },
+    localhost: {
+      chainId: 31337,
+      blockConfirmations: 1,
+    },
     goerli: {
       url: process.env.GOERLI_RPC_URL,
       chainId: 5,
